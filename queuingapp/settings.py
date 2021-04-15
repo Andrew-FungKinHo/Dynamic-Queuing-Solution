@@ -131,7 +131,7 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Google Map Place Search information
-PLACES_MAPS_API_KEY='AIzaSyACezhdkCFNEq5p0-NboDMIjepP5uV4mGg'
+# PLACES_MAPS_API_KEY=
 PLACES_MAP_WIDGET_HEIGHT=480
 PLACES_MAP_OPTIONS='{"center": { "lat": 38.971584, "lng": -95.235072 }, "zoom": 10}'
 PLACES_MARKER_OPTIONS='{"draggable": true}'
