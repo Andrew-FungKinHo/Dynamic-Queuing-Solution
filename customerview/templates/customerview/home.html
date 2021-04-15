@@ -1,4 +1,5 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +10,13 @@
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
             crossorigin="anonymous"
     >
-    <link rel="stylesheet"  href="{%  static  '/css/style.css'  %}">
+    <link rel="stylesheet"  href="{%  static  'css/style.css'  %}">
 
 </head>
 <body>
+    
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    {% comment %} <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand" href="#">Sintegrate</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -39,21 +41,41 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
-    </nav>
+    </nav> {% endcomment %}
+
+    <section>
+        <header>
+            <div class="header" id="navbar">
+                <h3>Welcome!</h3>
+                <h4>Jardines Restaurant Group</h4>
+            </div>
+        </header>
+        <main>
+            <ul class="nav nav-tabs nav-fill text-white ">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Dine In </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Take out</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Delivery</a>
+                </li>
+            <ul>
+        </main>
+    </section>
     
     {% comment %} <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
         <input type="submit" value="Save">
-        <button>Confirm</button>
-        
         {{ form.media }}
-    </form> {% endcomment %}
+    </form>
 
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Current fuck" aria-label="Search">
+      <input class="form-control mr-sm-2" type="search" placeholder="Current location" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    </form> {% endcomment %}
     
 </body>
 </html>
