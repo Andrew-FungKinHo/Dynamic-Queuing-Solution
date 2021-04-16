@@ -1,13 +1,13 @@
 # Sintegrate
 The project is designed for catering industry to implement a online ordering platform. It can calculate the ETA based on the locations of customers and restauarnt
 
-# Requirement
+## Requirement
   Python >= 3.6
   
   ```bash
   pip install -r requirement.txt
   ```
-# Setup
+## Setup
   
   To start running the proejct, use the following commands in terminal:
   ```bash
@@ -21,10 +21,10 @@ The project is designed for catering industry to implement a online ordering pla
   ```
   After the migration, use the runserver command to restart the server.
  
-# Customer View
+## Customer View
   The customer view can be found in 127.0.0.1:8000/
   
-# Admin View
+## Admin View
   The admin view can be found in 127.0.0.1:8000/admin
   
   The order list can be found in 127.0.0.1:8000/order
@@ -39,5 +39,5 @@ The project is designed for catering industry to implement a online ordering pla
   
   Visit the admin page using the super user id and password. Then you can add instances for testing.
   
-# Design Template
+## Design Template
   The template of design can be found at https://www.figma.com/proto/uHcpL3mVZhMhRz6NrOWgua/HackUST?node-id=16%3A1159&scaling=scale-down&page-id=0%3A1
