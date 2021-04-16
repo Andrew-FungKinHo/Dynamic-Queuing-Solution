@@ -1,10 +1,12 @@
 # Sintegrate
 The project is designed for catering industry to implement a online ordering platform. It can calculate the ETA based on the locations of customers and restauarnt
 
-# Environment and Setup
+# Requirement
   Python >= 3.6
   
-  pip packages needed: django, googlemaps
+  pip install -r requirement.txt
+  
+# Setup
   
   To start running the proejct, use the following commands in terminal:
   
