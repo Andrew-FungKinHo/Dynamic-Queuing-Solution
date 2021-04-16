@@ -7,7 +7,7 @@ A quick look at our main interfaces for searching and placing order
 
 Homepage             |  Reserve Now
 :-------------------:|:-------------------------:
-![Image of UI-1](https://github.com/Andrew-FungKinHo/Dynamic-Queuing-Solution/blob/master/demo-media/reserve_for_now.jpeg)  |  ![Image of UI-2](https://github.com/Andrew-FungKinHo/Dynamic-Queuing-Solution/blob/master/demo-media/main.jpeg)
+![Image of UI-1](https://github.com/Andrew-FungKinHo/Dynamic-Queuing-Solution/blob/master/demo-media/main.jpeg)  |  ![Image of UI-2](https://github.com/Andrew-FungKinHo/Dynamic-Queuing-Solution/blob/master/demo-media/reserve_for_now.jpeg)
 
 The list of orders from the restaurant's view:
 ![Dynamic Table](https://github.com/Andrew-FungKinHo/Dynamic-Queuing-Solution/blob/master/demo-media/dynamic_table.gif)
