@@ -1,14 +1,15 @@
 # Sintegrate by Slack Overflow (Team No.: Team163)
 The project Sintegrate in HackUST is designed for catering industry to implement a online ordering platform. It can calculate the ETA based on the locations of customers and restauarnt. By knowing ETA in advance, restaurants can manage take-away, dine-in orders efficiently.
 
-The template of our design can be found at https://www.figma.com/proto/uHcpL3mVZhMhRz6NrOWgua/HackUST?node-id=16%3A1159&scaling=scale-down&page-id=0%3A1
+UI/UX template design: https://www.figma.com/proto/uHcpL3mVZhMhRz6NrOWgua/HackUST?node-id=16%3A1159&scaling=scale-down&page-id=0%3A1
 
-The main app interfaces:
-![Image of UI-](https://github.com/Andrew-FungKinHo/Dynamic-Queuing-Solution/blob/master/demo-media/reserve_for_now.jpeg)
-Reserving for Now:
-![Image of UI-](https://github.com/Andrew-FungKinHo/Dynamic-Queuing-Solution/blob/master/demo-media/main.jpeg)
+A quick look at our main interfaces for searching and placing order
 
-The list of orders from the restaurant's view will be:
+Homepage             |  Reserve Now
+:-------------------:|:-------------------------:
+![Image of UI-1](https://github.com/Andrew-FungKinHo/Dynamic-Queuing-Solution/blob/master/demo-media/reserve_for_now.jpeg)  |  ![Image of UI-2](https://github.com/Andrew-FungKinHo/Dynamic-Queuing-Solution/blob/master/demo-media/main.jpeg)
+
+The list of orders from the restaurant's view:
 ![Dynamic Table](https://github.com/Andrew-FungKinHo/Dynamic-Queuing-Solution/blob/master/demo-media/dynamic_table.gif)
 
 ## Requirement
