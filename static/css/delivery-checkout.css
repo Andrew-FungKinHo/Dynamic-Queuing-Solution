@@ -1,0 +1,655 @@
+/* screen - delivery-checkout */
+
+.delivery-checkout {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1189px;
+  min-width: 414px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.delivery-checkout .address-KXveNS {
+  background-color: transparent;
+  height: 30.88%;
+  left: 4.93%;
+  position: absolute;
+  top: 17.65%;
+  width: 82.90%;
+}
+.delivery-checkout .background-Uvh9oG {
+  background-color: var(--white);
+  height: 91.75%;
+  left: 0px;
+  position: absolute;
+  top: 5.15%;
+  width: 100%;
+}
+.delivery-checkout .bars-status-bar-i-phone-light-C61RwL {
+  background-color: var(--white);
+  height: 3.03%;
+  left: -1.69%;
+  position: absolute;
+  top: 0px;
+  width: 104.59%;
+}
+.delivery-checkout .bars-status-bar-i-phone-light-VMr6Om {
+  background-color: var(--white);
+  height: 4.04%;
+  left: -1.69%;
+  position: absolute;
+  top: 0px;
+  width: 104.59%;
+}
+.delivery-checkout .battery-p815hO {
+  background-color: transparent;
+  height: 25.76%;
+  left: 87.02%;
+  position: absolute;
+  top: 39.39%;
+  width: 6.49%;
+}
+.delivery-checkout .border-fe8M3i {
+  background-color: transparent;
+  border-radius: 2.6666667461395264px;
+  height: 100%;
+  left: 0px;
+  opacity: 0.35;
+  position: absolute;
+  top: 0px;
+  width: 90.43%;
+}
+.delivery-checkout .cap-fe8M3i {
+  background-color: transparent;
+  height: 40.44%;
+  left: 93.71%;
+  position: absolute;
+  top: 29.78%;
+  width: 7.12%;
+}
+.delivery-checkout .capacity-fe8M3i {
+  background-color: var(--port-gore);
+  border-radius: 1.3333333730697632px;
+  height: 64.71%;
+  left: 8.22%;
+  position: absolute;
+  top: 17.65%;
+  width: 73.99%;
+}
+.delivery-checkout .catalog-title-C61RwL {
+  background-color: transparent;
+  height: 1.67%;
+  left: 40.10%;
+  letter-spacing: 0.46px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 6.90%;
+  width: 47.83%;
+}
+.delivery-checkout .cellular-connection-p815hO {
+  background-color: transparent;
+  height: 25.00%;
+  left: 75.63%;
+  position: absolute;
+  top: 39.77%;
+  width: 4.73%;
+}
+.delivery-checkout .checkout-Uvh9oG {
+  background-color: var(--shiraz);
+  border-radius: 4px;
+  height: 53.61%;
+  left: 12.32%;
+  overflow: hidden;
+  position: absolute;
+  top: 24.74%;
+  width: 78.50%;
+}
+.delivery-checkout .chicken-pineapple-pizza-ULxjky {
+  background-color: transparent;
+  height: 35.06%;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 64.43%;
+}
+.delivery-checkout .cta-C61RwL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 8.16%;
+  left: 0px;
+  position: absolute;
+  top: 91.84%;
+  width: 100%;
+}
+.delivery-checkout .current-location-6y1ZHY {
+  background-color: transparent;
+  height: 47.62%;
+  left: 0px;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 46.50%;
+}
+.delivery-checkout .delivery-address-C61RwL {
+  background-color: var(--white);
+  border-radius: 8px;
+  height: 11.44%;
+  left: 7.73%;
+  position: absolute;
+  top: 38.60%;
+  width: 83.33%;
+}
+.delivery-checkout .delivery-charge-xj8VaE {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 33.23%;
+}
+.delivery-checkout .delivery-fee-ox1XnA {
+  background-color: transparent;
+  height: 8.37%;
+  left: 4.62%;
+  position: absolute;
+  top: 35.15%;
+  width: 96.53%;
+}
+.delivery-checkout .delivery-fee-xBSiAV {
+  background-color: transparent;
+  height: 8.37%;
+  left: 4.62%;
+  position: absolute;
+  top: 48.95%;
+  width: 96.53%;
+}
+.delivery-checkout .frame-108-C61RwL {
+  background-color: var(--white);
+  border-radius: 100px;
+  cursor: pointer;
+  height: 4.54%;
+  left: 82.37%;
+  position: absolute;
+  top: 4.96%;
+  width: 13.04%;
+}
+.delivery-checkout .frame-91-C61RwL {
+  background-color: var(--white);
+  border-radius: 100px;
+  cursor: pointer;
+  height: 4.04%;
+  left: 6.28%;
+  position: absolute;
+  top: 5.21%;
+  width: 11.59%;
+}
+.delivery-checkout .get-eta-or-wait-ing-on-your-gps-6y1ZHY {
+  background-color: transparent;
+  height: 61.90%;
+  left: 0.35%;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 38.10%;
+  width: 98.95%;
+}
+.delivery-checkout .group-681-C61RwL {
+  background-color: transparent;
+  height: 3.60%;
+  left: 28.99%;
+  position: absolute;
+  top: 30.19%;
+  width: 61.11%;
+}
+.delivery-checkout .group-697-C61RwL {
+  background-color: transparent;
+  height: 4.06%;
+  left: 28.99%;
+  position: absolute;
+  top: 21.28%;
+  width: 61.11%;
+}
+.delivery-checkout .group-706-4hhro9 {
+  background-color: transparent;
+  height: 228px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 365px;
+}
+.delivery-checkout .group-707-C61RwL {
+  background-color: transparent;
+  height: 19.18%;
+  left: 5.80%;
+  position: absolute;
+  top: 69.13%;
+  width: 88.16%;
+}
+.delivery-checkout .heading-ox1XnA {
+  background-color: transparent;
+  height: 10.88%;
+  left: 4.62%;
+  position: absolute;
+  top: 0px;
+  width: 91.33%;
+}
+.delivery-checkout .hkd10-liDlw7 {
+  background-color: transparent;
+  height: 100%;
+  left: 82.93%;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 16.47%;
+}
+.delivery-checkout .hkd10-xj8VaE {
+  background-color: transparent;
+  height: 100%;
+  left: 82.93%;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 16.47%;
+}
+.delivery-checkout .hkd365-NLe2Se {
+  background-color: transparent;
+  height: 100%;
+  left: 80.24%;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 19.16%;
+}
+.delivery-checkout .hkd385-3czGux {
+  background-color: transparent;
+  height: 100%;
+  left: 80.24%;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 19.16%;
+}
+.delivery-checkout .hkd385-JI628I {
+  background-color: transparent;
+  height: auto;
+  left: 266px;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  white-space: nowrap;
+  width: auto;
+}
+.delivery-checkout .home-page-r784aF {
+  background-color: transparent;
+  height: 55.56%;
+  left: 22.22%;
+  position: absolute;
+  top: 22.22%;
+  width: 55.56%;
+}
+.delivery-checkout .icons-chevron-circle-left-cAS6cI {
+  background-color: transparent;
+  height: 24px;
+  left: 12px;
+  overflow: hidden;
+  position: relative;
+  top: 12px;
+  width: 24px;
+}
+.delivery-checkout .image-15-4hhro9 {
+  background-color: transparent;
+  height: 18.86%;
+  left: 17.53%;
+  object-fit: cover;
+  position: absolute;
+  top: 12.28%;
+  width: 12.88%;
+}
+.delivery-checkout .image-16-4hhro9 {
+  background-color: transparent;
+  height: 26.75%;
+  left: 15.07%;
+  object-fit: cover;
+  position: absolute;
+  top: 67.98%;
+  width: 16.71%;
+}
+.delivery-checkout .image-18-C61RwL {
+  background-color: transparent;
+  height: 3.87%;
+  left: 4.59%;
+  object-fit: cover;
+  position: absolute;
+  top: 29.52%;
+  width: 21.98%;
+}
+.delivery-checkout .image-19-C61RwL {
+  background-color: transparent;
+  height: 4.21%;
+  left: 4.59%;
+  object-fit: cover;
+  position: absolute;
+  top: 20.61%;
+  width: 22.46%;
+}
+.delivery-checkout .image-23-C61RwL {
+  background-color: transparent;
+  height: 3.36%;
+  left: 21.74%;
+  object-fit: cover;
+  position: absolute;
+  top: 77.04%;
+  width: 10.39%;
+}
+.delivery-checkout .item-total-NLe2Se {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 20.36%;
+}
+.delivery-checkout .item-total-ox1XnA {
+  background-color: transparent;
+  height: 8.37%;
+  left: 4.62%;
+  position: absolute;
+  top: 20.92%;
+  width: 96.53%;
+}
+.delivery-checkout .location-KXveNS {
+  background-color: var(--salmon-pearl);
+  border-radius: 30px;
+  height: 23.53%;
+  left: 86.09%;
+  position: absolute;
+  top: 17.65%;
+  width: 9.28%;
+}
+.delivery-checkout .notes-ULxjky {
+  background-color: transparent;
+  height: 38.22%;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 61.78%;
+  width: 31.62%;
+}
+.delivery-checkout .notes-ycCHo2 {
+  background-color: transparent;
+  height: 33.84%;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 66.16%;
+  width: 31.62%;
+}
+.delivery-checkout .payment-0mlwYM {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  letter-spacing: -0.24px;
+  line-height: 26px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 27.22%;
+}
+.delivery-checkout .payment-C61RwL {
+  background-color: transparent;
+  height: 20.10%;
+  left: 7.73%;
+  position: absolute;
+  top: 46.93%;
+  width: 83.57%;
+}
+.delivery-checkout .payment-method-C61RwL {
+  background-color: transparent;
+  height: 1.68%;
+  left: 10.87%;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 66.44%;
+  width: 37.43%;
+}
+.delivery-checkout .payment-methods-x74UY6 {
+  background-color: transparent;
+  height: 135.09%;
+  left: -10.96%;
+  position: absolute;
+  top: -14.91%;
+  width: 121.92%;
+}
+.delivery-checkout .pepperoni-pizza-ycCHo2 {
+  background-color: transparent;
+  height: 82.17%;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 47.04%;
+}
+.delivery-checkout .place-order-JI628I {
+  background-color: transparent;
+  height: auto;
+  left: 16px;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  white-space: nowrap;
+  width: auto;
+}
+.delivery-checkout .rectangle-1-C61RwL {
+  background-color: var(--white);
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px rgba(195,63,21,0.1);;
+  height: 0.33%;
+  left: 16.67%;
+  position: absolute;
+  top: 27.90%;
+  width: 21.01%;
+}
+.delivery-checkout .rectangle-28-Uvh9oG {
+  background-color: transparent;
+  height: 165.98%;
+  left: -7.73%;
+  position: absolute;
+  top: -32.99%;
+  width: 115.46%;
+}
+.delivery-checkout .rectangle-304-C61RwL {
+  background-color: transparent;
+  height: 166.78%;
+  left: -6.76%;
+  position: absolute;
+  top: 11.02%;
+  width: 115.70%;
+}
+.delivery-checkout .rectangle-70-PsfeUA {
+  background-color: var(--salmon-pearl);
+  border-radius: 30px;
+  height: 50.00%;
+  left: 25.00%;
+  position: absolute;
+  top: 25.00%;
+  width: 50.00%;
+}
+.delivery-checkout .rectangle-71-PsfeUA {
+  background-color: var(--white);
+  border-radius: 30px;
+  height: 87.50%;
+  left: 6.25%;
+  position: absolute;
+  top: 6.25%;
+  width: 87.50%;
+}
+.delivery-checkout .rectangle-71-ox1XnA {
+  background-color: var(--white);
+  border-radius: 8px;
+  height: 77.41%;
+  left: 0px;
+  position: absolute;
+  top: 22.59%;
+  width: 99.71%;
+}
+.delivery-checkout .rectangle-80-C61RwL {
+  background-color: var(--shiraz);
+  height: 6.98%;
+  left: 0px;
+  position: absolute;
+  top: 4.04%;
+  width: 100%;
+}
+.delivery-checkout .service-charge-liDlw7 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 31.14%;
+}
+.delivery-checkout .time-style-C61RwL {
+  background-color: transparent;
+  height: 1.77%;
+  left: 2.90%;
+  position: absolute;
+  top: 0.93%;
+  width: 13.04%;
+}
+.delivery-checkout .time-uYGxHG {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: calc(50.00% - 4px);
+  white-space: nowrap;
+  width: 103.70%;
+}
+.delivery-checkout .to-pay-3czGux {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 14.07%;
+}
+.delivery-checkout .to-pay-ox1XnA {
+  background-color: transparent;
+  height: 8.37%;
+  left: 4.62%;
+  position: absolute;
+  top: 64.02%;
+  width: 96.53%;
+}
+.delivery-checkout .vector-3-ox1XnA {
+  background-color: transparent;
+  height: 0.84%;
+  left: 4.91%;
+  position: absolute;
+  top: 61.09%;
+  width: 89.88%;
+}
+.delivery-checkout .vector-5ZdbCO {
+  background-color: transparent;
+  height: 64.58%;
+  left: 33.75%;
+  position: absolute;
+  top: 18.96%;
+  width: 35.42%;
+}
+.delivery-checkout .wifi-p815hO {
+  background-color: transparent;
+  height: 26.04%;
+  left: 81.51%;
+  position: absolute;
+  top: 38.87%;
+  width: 4.27%;
+}
+.delivery-checkout .x17500-x1-ULxjky {
+  background-color: transparent;
+  height: 38.22%;
+  left: 69.96%;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 31.75%;
+  width: 28.46%;
+}
+.delivery-checkout .x19000-x1-ycCHo2 {
+  background-color: transparent;
+  height: 33.84%;
+  left: 69.96%;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 12.99%;
+  width: 28.46%;
+}
+.delivery-checkout .your-order-C61RwL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 3.03%;
+  left: 8.21%;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 13.96%;
+  width: 60.14%;
+}

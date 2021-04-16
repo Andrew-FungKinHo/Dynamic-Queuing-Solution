@@ -1,0 +1,258 @@
+/* screen - dine-in-order-confirmation */
+
+.dine-in-order-confirmation {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 896px;
+  min-width: 414px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.dine-in-order-confirmation .a25-C61RwL {
+  background-color: transparent;
+  height: 15.62%;
+  left: 14.98%;
+  letter-spacing: -0.24px;
+  line-height: 29px;
+  position: absolute;
+  text-align: center;
+  top: 27.79%;
+  width: 69.81%;
+}
+.dine-in-order-confirmation .bars-status-bar-i-phone-light-C61RwL {
+  background-color: var(--white);
+  height: 3.03%;
+  left: -1.69%;
+  position: absolute;
+  top: 0px;
+  width: 104.59%;
+}
+.dine-in-order-confirmation .bars-status-bar-i-phone-light-VMr6Om {
+  background-color: var(--white);
+  height: 5.36%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 104.59%;
+}
+.dine-in-order-confirmation .battery-p815hO {
+  background-color: transparent;
+  height: 25.76%;
+  left: 87.02%;
+  position: absolute;
+  top: 39.39%;
+  width: 6.49%;
+}
+.dine-in-order-confirmation .border-fe8M3i {
+  background-color: transparent;
+  border-radius: 2.6666667461395264px;
+  height: 100%;
+  left: 0px;
+  opacity: 0.35;
+  position: absolute;
+  top: 0px;
+  width: 90.43%;
+}
+.dine-in-order-confirmation .box-StGp4f {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 20.00%;
+}
+.dine-in-order-confirmation .cap-fe8M3i {
+  background-color: transparent;
+  height: 40.44%;
+  left: 93.71%;
+  position: absolute;
+  top: 29.78%;
+  width: 7.12%;
+}
+.dine-in-order-confirmation .capacity-fe8M3i {
+  background-color: var(--port-gore);
+  border-radius: 1.3333333730697632px;
+  height: 64.71%;
+  left: 8.22%;
+  position: absolute;
+  top: 17.65%;
+  width: 73.99%;
+}
+.dine-in-order-confirmation .catalog-title-DdZC8r {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.37px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: auto;
+}
+.dine-in-order-confirmation .catalog-title-StGp4f {
+  background-color: transparent;
+  height: 47.50%;
+  left: 23.50%;
+  letter-spacing: 0.37px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 27.50%;
+  width: 76.50%;
+}
+.dine-in-order-confirmation .catalog-title-dKkxaY {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.37px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+.dine-in-order-confirmation .cellular-connection-p815hO {
+  background-color: transparent;
+  height: 25.00%;
+  left: 75.63%;
+  position: absolute;
+  top: 39.77%;
+  width: 4.73%;
+}
+.dine-in-order-confirmation .frame-189-C61RwL {
+  background-color: transparent;
+  height: 19px;
+  left: 92px;
+  position: absolute;
+  top: 735px;
+  width: 229px;
+}
+.dine-in-order-confirmation .frame-190-C61RwL {
+  background-color: transparent;
+  height: 19px;
+  left: 62px;
+  position: absolute;
+  top: 774px;
+  width: 289px;
+}
+.dine-in-order-confirmation .group-710-C61RwL {
+  background-color: transparent;
+  height: 4.46%;
+  left: 26.09%;
+  position: absolute;
+  top: 24.44%;
+  width: 48.31%;
+}
+.dine-in-order-confirmation .icons-chevron-circle-left-C61RwL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 24px;
+  left: 23px;
+  overflow: hidden;
+  position: absolute;
+  top: 69px;
+  width: 24px;
+}
+.dine-in-order-confirmation .icons8buy-C61RwL {
+  background-color: transparent;
+  height: 35px;
+  left: 365px;
+  overflow: hidden;
+  position: absolute;
+  top: 60px;
+  width: 35px;
+}
+.dine-in-order-confirmation .order-confirmation-7523-C61RwL {
+  background-color: transparent;
+  height: 3.91%;
+  left: 22.22%;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 8.15%;
+  width: 77.78%;
+}
+.dine-in-order-confirmation .rectangle-1-C61RwL {
+  background-color: var(--white);
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px rgba(195,63,21,0.1);;
+  height: 0.33%;
+  left: 16.67%;
+  position: absolute;
+  top: 27.90%;
+  width: 21.01%;
+}
+.dine-in-order-confirmation .rectangle-1731-C61RwL {
+  background-color: transparent;
+  height: 270px;
+  left: 47px;
+  object-fit: cover;
+  position: absolute;
+  top: 417px;
+  width: 320px;
+}
+.dine-in-order-confirmation .rectangle-305-C61RwL {
+  background-color: transparent;
+  height: 221.32%;
+  left: -7.49%;
+  position: absolute;
+  top: 22.66%;
+  width: 127.05%;
+}
+.dine-in-order-confirmation .rectangle-80-C61RwL {
+  background-color: var(--shiraz);
+  height: 12.83%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.dine-in-order-confirmation .time-p815hO {
+  background-color: transparent;
+  height: auto;
+  left: 2.77%;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: calc(50.00% - 9px);
+  white-space: nowrap;
+  width: 12.93%;
+}
+.dine-in-order-confirmation .vector-KgM6ka {
+  background-color: transparent;
+  height: 100%;
+  left: 5.00%;
+  position: absolute;
+  top: 0px;
+  width: 90.00%;
+}
+.dine-in-order-confirmation .vector-XpAnNV {
+  background-color: transparent;
+  height: 62.86%;
+  left: 8.76%;
+  position: absolute;
+  top: 25.54%;
+  width: 78.57%;
+}
+.dine-in-order-confirmation .vector-YaU8bO {
+  background-color: transparent;
+  height: 64.58%;
+  left: 33.75%;
+  position: absolute;
+  top: 18.96%;
+  width: 35.42%;
+}
+.dine-in-order-confirmation .wifi-p815hO {
+  background-color: transparent;
+  height: 26.04%;
+  left: 81.51%;
+  position: absolute;
+  top: 38.87%;
+  width: 4.27%;
+}

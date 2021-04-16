@@ -1,0 +1,559 @@
+/* screen - customer-review-1 */
+
+.customer-review-1 {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 896px;
+  min-width: 414px;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.customer-review-1 .bars-status-bar-i-phone-light-C61RwL {
+  background-color: var(--white);
+  height: 5.36%;
+  left: -1.69%;
+  position: absolute;
+  top: 0px;
+  width: 104.59%;
+}
+.customer-review-1 .battery-klngK9 {
+  background-color: transparent;
+  height: 25.76%;
+  left: 87.02%;
+  position: absolute;
+  top: 39.39%;
+  width: 6.49%;
+}
+.customer-review-1 .border-JVhWJP {
+  background-color: transparent;
+  border-radius: 2.6666667461395264px;
+  height: 100%;
+  left: 0px;
+  opacity: 0.35;
+  position: absolute;
+  top: 0px;
+  width: 90.43%;
+}
+.customer-review-1 .cap-JVhWJP {
+  background-color: transparent;
+  height: 40.44%;
+  left: 93.71%;
+  position: absolute;
+  top: 29.78%;
+  width: 7.12%;
+}
+.customer-review-1 .capacity-JVhWJP {
+  background-color: var(--port-gore);
+  border-radius: 1.3333333730697632px;
+  height: 64.71%;
+  left: 8.22%;
+  position: absolute;
+  top: 17.65%;
+  width: 73.99%;
+}
+.customer-review-1 .catalog-title-gxUlda {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.55px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 44px;
+  width: 303px;
+}
+.customer-review-1 .catalog-title-mXNFQL {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.55px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 303px;
+}
+.customer-review-1 .cellular-connection-klngK9 {
+  background-color: transparent;
+  height: 25.00%;
+  left: 75.63%;
+  position: absolute;
+  top: 39.77%;
+  width: 4.73%;
+}
+.customer-review-1 .description-7CkkU8 {
+  background-color: transparent;
+  height: auto;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 4px;
+  white-space: nowrap;
+  width: 279px;
+}
+.customer-review-1 .dificulty-33ETKy {
+  background-color: transparent;
+  height: 60px;
+  left: 174px;
+  position: absolute;
+  top: 30px;
+  width: 110px;
+}
+.customer-review-1 .frame-103-gxUlda {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 89px;
+  width: 301px;
+}
+.customer-review-1 .frame-103-mXNFQL {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 45px;
+  width: 301px;
+}
+.customer-review-1 .frame-105-0V1zOZ {
+  background-color: transparent;
+  height: 17px;
+  left: 135px;
+  position: absolute;
+  top: 2px;
+  width: 106px;
+}
+.customer-review-1 .frame-105-KrK64D {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: relative;
+  top: 2px;
+  width: 131px;
+}
+.customer-review-1 .frame-108-C61RwL {
+  background-color: var(--white);
+  border-radius: 100px;
+  height: 5.36%;
+  left: 83.57%;
+  position: absolute;
+  top: 6.58%;
+  width: 11.59%;
+}
+.customer-review-1 .frame-109-C61RwL {
+  background-color: var(--white);
+  border-radius: 16px;
+  box-shadow: 7px 8px 32px rgba(25,35,51,0.12);;
+  height: 30.36%;
+  left: 9.90%;
+  position: absolute;
+  top: 52.23%;
+  width: 80.43%;
+}
+.customer-review-1 .frame-110-C61RwL {
+  background-color: var(--cararra);
+  border-radius: 100px;
+  cursor: pointer;
+  height: 5.36%;
+  left: 2.42%;
+  position: absolute;
+  top: 63.73%;
+  width: 11.59%;
+}
+.customer-review-1 .frame-111-C61RwL {
+  background-color: var(--cararra);
+  border-radius: 100px;
+  cursor: pointer;
+  height: 5.36%;
+  left: 85.02%;
+  position: absolute;
+  top: 63.73%;
+  transform: rotate(-180deg);
+  width: 11.59%;
+}
+.customer-review-1 .frame-15-C61RwL {
+  background-color: var(--white);
+  border-radius: 16px;
+  box-shadow: 7px 8px 32px rgba(25,35,51,0.12);;
+  height: 30.36%;
+  left: 9.90%;
+  position: absolute;
+  top: 16.96%;
+  width: 80.43%;
+}
+.customer-review-1 .frame-52-gxUlda {
+  background-color: var(--concrete-3);
+  border-radius: 8px;
+  height: 28px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 301px;
+}
+.customer-review-1 .frame-59-UxBYl8 {
+  background-color: transparent;
+  height: 111px;
+  left: 16px;
+  position: absolute;
+  top: 16px;
+  width: 301px;
+}
+.customer-review-1 .frame-59-XZ5Sep {
+  background-color: transparent;
+  height: 67px;
+  left: 16px;
+  position: absolute;
+  top: 16px;
+  width: 301px;
+}
+.customer-review-1 .frame-91-C61RwL {
+  background-color: var(--white);
+  border-radius: 100px;
+  cursor: pointer;
+  height: 5.36%;
+  left: 6.76%;
+  position: absolute;
+  top: 6.58%;
+  width: 11.59%;
+}
+.customer-review-1 .frame-94-C61RwL {
+  background-color: var(--white);
+  height: 7.03%;
+  left: 4.35%;
+  position: absolute;
+  top: 87.50%;
+  width: 90.58%;
+}
+.customer-review-1 .icons-chevron-circle-left-SI16of {
+  background-color: transparent;
+  height: 24px;
+  left: 12px;
+  position: relative;
+  top: 12px;
+  width: 24px;
+}
+.customer-review-1 .icons-chevron-circle-left-cAS6cI {
+  background-color: transparent;
+  height: 24px;
+  left: 12px;
+  position: relative;
+  top: 12px;
+  width: 24px;
+}
+.customer-review-1 .icons-chevron-circle-left-kCCLUD {
+  background-color: transparent;
+  height: 24px;
+  left: 12px;
+  position: relative;
+  top: 12px;
+  width: 24px;
+}
+.customer-review-1 .icons-clock-ZYmOov {
+  background-color: transparent;
+  height: 20px;
+  left: 45px;
+  position: absolute;
+  top: 0px;
+  width: 20px;
+}
+.customer-review-1 .icons-heart-EfxdCJ {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 16px;
+}
+.customer-review-1 .icons-heart-r784aF {
+  background-color: transparent;
+  height: 24px;
+  left: 12px;
+  position: relative;
+  top: 12px;
+  width: 24px;
+}
+.customer-review-1 .icons-restaurant-GS14PN {
+  background-color: transparent;
+  height: 20px;
+  left: 45px;
+  position: absolute;
+  top: 0px;
+  width: 20px;
+}
+.customer-review-1 .image-C61RwL {
+  background-color: transparent;
+  height: 27.01%;
+  left: -2.17%;
+  object-fit: cover;
+  position: absolute;
+  top: 3.46%;
+  width: 104.59%;
+}
+.customer-review-1 .section-group-UxBYl8 {
+  background-color: var(--white);
+  box-shadow: 0px -1px 0px rgba(0,0,0,0.1);;
+  height: 111px;
+  left: calc(50.00% - 150px);
+  position: absolute;
+  top: 143px;
+  width: 301px;
+}
+.customer-review-1 .separator-33ETKy {
+  background-color: transparent;
+  height: 87px;
+  left: 142px;
+  position: absolute;
+  top: 16px;
+  width: 1px;
+}
+.customer-review-1 .separator-jJjxo5 {
+  background-color: transparent;
+  height: 87px;
+  left: 158px;
+  position: absolute;
+  top: 16px;
+  width: 1px;
+}
+.customer-review-1 .span0-L11mRm {
+  color: rgba(0,0,0,1.0);
+  font-style: normal;
+  letter-spacing: 0.07px;
+}
+.customer-review-1 .span1-L11mRm {
+  color: rgba(0,0,0,1.0);
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 0.05px;
+}
+.customer-review-1 .star-1-0V1zOZ {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 16px;
+}
+.customer-review-1 .tab-bar-FRcVxC {
+  background-color: var(--white);
+  border-radius: 100px;
+  height: 51px;
+  left: 8px;
+  position: relative;
+  top: 12px;
+  width: 359px;
+}
+.customer-review-1 .tab-intro-C3twqw {
+  background-color: var(--midnight-blue);
+  border-radius: 100px;
+  cursor: pointer;
+  height: 35px;
+  left: 8px;
+  position: absolute;
+  top: 8px;
+  width: 168px;
+}
+.customer-review-1 .tab-steps-C3twqw {
+  background-color: var(--shiraz);
+  border-radius: 100px;
+  cursor: pointer;
+  height: 35px;
+  left: 184px;
+  position: absolute;
+  top: 8px;
+  width: 168px;
+}
+.customer-review-1 .text-0V1zOZ {
+  background-color: transparent;
+  height: auto;
+  left: 8px;
+  letter-spacing: 0.32px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  width: auto;
+}
+.customer-review-1 .text-EfxdCJ {
+  background-color: transparent;
+  height: auto;
+  left: 20px;
+  letter-spacing: 0.32px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+.customer-review-1 .text-GS14PN {
+  background-color: transparent;
+  height: auto;
+  left: 5px;
+  letter-spacing: 0.30px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 28px;
+  width: auto;
+}
+.customer-review-1 .text-ZYmOov {
+  background-color: transparent;
+  height: auto;
+  left: 9px;
+  letter-spacing: 0.30px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 28px;
+  width: auto;
+}
+.customer-review-1 .the-food-tastes-jovan-tjahjadi-XZ5Sep {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Lato', Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  height: 145px;
+  left: 42px;
+  letter-spacing: 0.41px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 99px;
+  width: 252px;
+}
+.customer-review-1 .time-33ETKy {
+  background-color: transparent;
+  height: 76px;
+  left: 16px;
+  position: absolute;
+  top: 22px;
+  width: 110px;
+}
+.customer-review-1 .time-style-C61RwL {
+  background-color: transparent;
+  height: 2.34%;
+  left: 2.90%;
+  position: absolute;
+  top: 1.23%;
+  width: 13.04%;
+}
+.customer-review-1 .time-uYGxHG {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: calc(50.00% - 4px);
+  white-space: nowrap;
+  width: 103.70%;
+}
+.customer-review-1 .title-18QQ9x {
+  background-color: transparent;
+  height: auto;
+  left: 21px;
+  letter-spacing: 0.37px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  width: auto;
+}
+.customer-review-1 .title-ChC9xY {
+  background-color: transparent;
+  height: auto;
+  left: 22px;
+  letter-spacing: 0.37px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  width: auto;
+}
+.customer-review-1 .vector-5ZdbCO {
+  background-color: transparent;
+  height: 64.58%;
+  left: 33.75%;
+  position: absolute;
+  top: 18.96%;
+  width: 35.42%;
+}
+.customer-review-1 .vector-CbZDLF {
+  background-color: transparent;
+  height: 95.00%;
+  left: 1.25%;
+  position: absolute;
+  top: 2.50%;
+  width: 97.50%;
+}
+.customer-review-1 .vector-FaLPvV {
+  background-color: transparent;
+  height: 87.50%;
+  left: 56.09%;
+  position: absolute;
+  top: 5.99%;
+  width: 30.00%;
+}
+.customer-review-1 .vector-Ijusss {
+  background-color: transparent;
+  height: 85.00%;
+  left: 11.25%;
+  position: absolute;
+  top: 8.28%;
+  width: 40.00%;
+}
+.customer-review-1 .vector-TakDQd {
+  background-color: transparent;
+  height: 64.58%;
+  left: 33.75%;
+  position: absolute;
+  top: 18.96%;
+  width: 35.42%;
+}
+.customer-review-1 .vector-YSHuFF {
+  background-color: transparent;
+  height: 87.50%;
+  left: 0px;
+  position: absolute;
+  top: 6.29%;
+  width: 100%;
+}
+.customer-review-1 .vector-hxdeBm {
+  background-color: transparent;
+  height: 64.58%;
+  left: 33.75%;
+  position: absolute;
+  top: 18.96%;
+  transform: rotate(180deg);
+  width: 35.42%;
+}
+.customer-review-1 .vector-jXozx1 {
+  background-color: transparent;
+  height: 47.50%;
+  left: 45.66%;
+  position: absolute;
+  top: 17.66%;
+  width: 27.50%;
+}
+.customer-review-1 .vector-omL0iP {
+  background-color: transparent;
+  height: 87.50%;
+  left: 2.19%;
+  position: absolute;
+  top: 6.29%;
+  width: 95.83%;
+}
+.customer-review-1 .wifi-klngK9 {
+  background-color: transparent;
+  height: 26.04%;
+  left: 81.51%;
+  position: absolute;
+  top: 38.87%;
+  width: 4.27%;
+}

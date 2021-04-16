@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="../static/css/reserve-for-now-po.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Lato:400,700,900,300,500,800|Poppins:400,500,600|Roboto:400,700,500");
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Lato:400,700,900,300,500,800|Poppins:400,500,600|Roboto:400,700,500");
+      * {
+        box-sizing: border-box;
+      }
+      .border-0-5px-black-2 {
+        border: 0.5px solid var(--black-2);
+      }
+      .border-1px-port-gore {
+        border: 1px solid var(--port-gore);
+      }
+      .lato-black-black-100px {
+        color: var(--black);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xxxxxxl);
+        font-style: normal;
+        font-weight: 900;
+      }
+      .lato-black-black-15px {
+        color: var(--black);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-s);
+        font-style: normal;
+        font-weight: 900;
+      }
+      .lato-black-black-16px {
+        color: var(--black);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 900;
+      }
+      .lato-black-port-gore-15px {
+        color: var(--port-gore);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-s);
+        font-style: normal;
+        font-weight: 900;
+      }
+      .lato-bold-aztec-14px {
+        color: var(--aztec);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xs);
+        font-style: normal;
+        font-weight: 700;
+      }
+      .lato-bold-aztec-25px {
+        color: var(--aztec);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xxxxl);
+        font-style: normal;
+        font-weight: 700;
+      }
+      .lato-bold-black-17px {
+        color: var(--black);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-l);
+        font-style: normal;
+        font-weight: 700;
+      }
+      .lato-bold-outer-space-12px {
+        color: var(--outer-space);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xxxs);
+        font-style: normal;
+        font-weight: 700;
+      }
+      .lato-bold-vermilion-17px {
+        color: var(--vermilion);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-l);
+        font-style: normal;
+        font-weight: 700;
+      }
+      .lato-bold-white-20px {
+        color: var(--white);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xl);
+        font-style: normal;
+        font-weight: 700;
+      }
+      .lato-bold-white-28px {
+        color: var(--white);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xxxxxl);
+        font-style: normal;
+        font-weight: 700;
+      }
+      .lato-extra-bold-white-17px {
+        color: var(--white);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-l);
+        font-style: normal;
+        font-weight: 800;
+      }
+      .lato-light-black-12px {
+        color: var(--black);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xxxs);
+        font-style: normal;
+        font-weight: 300;
+      }
+      .lato-medium-aztec-12px {
+        color: var(--aztec);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xxxs);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .lato-medium-black-16px {
+        color: var(--black);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .lato-medium-black-20px {
+        color: var(--black);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xl);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .lato-medium-black-24px {
+        color: var(--black);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xxxl);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .lato-medium-gray-10px {
+        color: var(--gray);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xxxxs);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .lato-medium-gun-powder-16px {
+        color: var(--gun-powder);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .lato-medium-gun-powder-22px {
+        color: var(--gun-powder);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xxl);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .lato-medium-star-dust-17px {
+        color: var(--star-dust);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-l);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .lato-medium-white-20px {
+        color: var(--white);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xl);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .lato-normal-black-13px {
+        color: var(--black);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xxs);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .lato-normal-black-16px {
+        color: var(--black);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .lato-normal-celeste-16px {
+        color: var(--celeste);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .lato-normal-concrete-16px {
+        color: var(--concrete-2);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .lato-normal-gray-14px {
+        color: var(--gray);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xs);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .lato-normal-gun-powder-16px {
+        color: var(--gun-powder);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .lato-normal-outer-space-10px {
+        color: var(--outer-space);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xxxxs);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .lato-normal-shuttle-gray-14px {
+        color: var(--shuttle-gray);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-xs);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .lato-normal-shuttle-gray-16px {
+        color: var(--shuttle-gray);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .lato-normal-white-16px {
+        color: var(--white);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .lato-normal-white-17px {
+        color: var(--white);
+        font-family: var(--font-family-lato);
+        font-size: var(--font-size-l);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .poppins-medium-coconut-16px {
+        color: var(--coconut);
+        font-family: var(--font-family-poppins);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .poppins-medium-gun-powder-16px {
+        color: var(--gun-powder);
+        font-family: var(--font-family-poppins);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .poppins-medium-white-16px {
+        color: var(--white);
+        font-family: var(--font-family-poppins);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .poppins-normal-gun-powder-12px {
+        color: var(--gun-powder);
+        font-family: var(--font-family-poppins);
+        font-size: var(--font-size-xxxs);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .poppins-normal-white-14px {
+        color: var(--white);
+        font-family: var(--font-family-poppins);
+        font-size: var(--font-size-xs);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .poppins-semi-bold-masala-14px {
+        color: var(--masala);
+        font-family: var(--font-family-poppins);
+        font-size: var(--font-size-xs);
+        font-style: normal;
+        font-weight: 600;
+      }
+      .roboto-medium-mine-shaft-15px {
+        color: var(--mine-shaft);
+        font-family: var(--font-family-roboto);
+        font-size: var(--font-size-s);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .roboto-medium-silver-15px {
+        color: var(--silver);
+        font-family: var(--font-family-roboto);
+        font-size: var(--font-size-s);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .roboto-normal-shiraz-15px {
+        color: var(--shiraz);
+        font-family: var(--font-family-roboto);
+        font-size: var(--font-size-s);
+        font-style: normal;
+        font-weight: 400;
+      }
+      :root {
+        --aztec: rgba(10, 25, 30, 1);
+        --black: rgba(0, 0, 0, 1);
+        --black-2: rgba(0, 0, 0, 0.8);
+        --bon-jour: rgba(225, 225, 225, 1);
+        --cararra: rgba(236, 234, 234, 1);
+        --celeste: rgba(206, 206, 206, 1);
+        --coconut: rgba(252, 254, 255, 1);
+        --concrete: rgba(241, 242, 246, 1);
+        --concrete-2: rgba(242, 242, 242, 1);
+        --concrete-3: rgba(242, 242, 244, 1);
+        --font-family-lato: "Lato", Helvetica;
+        --font-family-poppins: "Poppins", Helvetica;
+        --font-family-roboto: "Roboto", Helvetica;
+        --font-size-l: 17px;
+        --font-size-m: 16px;
+        --font-size-s: 15px;
+        --font-size-xl: 20px;
+        --font-size-xs: 14px;
+        --font-size-xxl: 22px;
+        --font-size-xxs: 13px;
+        --font-size-xxxl: 24px;
+        --font-size-xxxs: 12px;
+        --font-size-xxxxl: 25px;
+        --font-size-xxxxs: 10px;
+        --font-size-xxxxxl: 28px;
+        --font-size-xxxxxxl: 100px;
+        --gallery: rgba(239, 239, 242, 1);
+        --gray: rgba(126, 126, 126, 1);
+        --gun-powder: rgba(62, 68, 98, 1);
+        --masala: rgba(61, 61, 61, 1);
+        --midnight-blue: rgba(31, 73, 117, 1);
+        --mine-shaft: rgba(51, 51, 51, 1);
+        --outer-space: rgba(44, 48, 62, 1);
+        --port-gore: rgba(33, 32, 90, 1);
+        --salmon-pearl: rgba(232, 76, 79, 1);
+        --shiraz: rgba(188, 21, 51, 1);
+        --shuttle-gray: rgba(99, 102, 115, 1);
+        --silver: rgba(189, 189, 189, 1);
+        --spring-wood: rgba(248, 245, 242, 1);
+        --star-dust: rgba(153, 153, 157, 1);
+        --vermilion: rgba(250, 74, 12, 1);
+        --white: rgba(255, 255, 255, 1);
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(255, 255, 255, 1)">
+    <input type="hidden" id="anPageName" name="page" value="reserve-for-now-po" />
+    <div class="reserve-for-now-po screen">
+      <img class="rectangle-304-C61RwL" src="../static/images/rectangle-304-1@1x.png" />
+      <a href="../customer-review-1">
+        <div class="frame-91-C61RwL">
+          <div class="icons-chevron-circle-left-cAS6cI">
+            <img class="vector-5ZdbCO" src="../static/images/vector-2@2x.png" />
+          </div></div
+      ></a>
+      <div class="catalog-title-C61RwL lato-medium-black-20px">Reserve for Now</div>
+      <div class="bars-status-bar-i-phone-light-C61RwL">
+        <img class="cellular-connection-klngK9" src="../static/images/cellular-connection@2x.png" />
+        <div class="battery-klngK9">
+          <img class="cap-JVhWJP" src="../static/images/cap@2x.png" />
+          <div class="border-JVhWJP border-1px-port-gore"></div>
+          <div class="capacity-JVhWJP"></div>
+        </div>
+        <img class="wifi-klngK9" src="../static/images/wifi@2x.png" />
+      </div>
+      <div class="time-style-C61RwL"><div class="time-uYGxHG lato-black-port-gore-15px">9:41</div></div>
+      <div class="keep-C61RwL">
+        <a href="../reserve-for-now-no-po">
+          <div class="toggle-xVaOdu"><img class="ellipse-1-ALWlQj" src="../static/images/ellipse-1@2x.png" /></div
+        ></a>
+        <div class="content-xVaOdu">
+          <div class="your-food-will-hen-you-arrived-xXrxQF lato-normal-gray-14px">
+            Your food will be ready when you arrived!
+          </div>
+          <div class="pre-order-food-xXrxQF lato-medium-gun-powder-16px">Pre-Order Food</div>
+        </div>
+      </div>
+      <div class="n1900-C61RwL lato-bold-vermilion-17px">N1,900</div>
+      <div class="group-708-C61RwL">
+        <div class="group-4-2b8ko4">
+          <div class="rectangle-9-PqU1cb"></div>
+          <div class="chicken-pineapple-pizza-PqU1cb lato-black-black-16px">Chicken Pineapple<br />Pizza</div>
+          <div class="hkd190-PqU1cb lato-bold-vermilion-17px">HKD190</div>
+        </div>
+        <div class="group-5-2b8ko4">
+          <div class="rectangle-9-w7lbY7"></div>
+          <div class="pepperoni-pizza-w7lbY7 lato-black-black-15px">Pepperoni Pizza</div>
+          <div class="hkd185-w7lbY7 lato-bold-vermilion-17px">HKD185</div>
+        </div>
+        <div class="group-6-2b8ko4">
+          <div class="rectangle-9-TIlKlF"></div>
+          <div class="thousand-island-pizza-TIlKlF lato-black-black-15px">Thousand Island <br />Pizza</div>
+          <div class="hkd195-TIlKlF lato-bold-vermilion-17px">HKD195</div>
+        </div>
+        <div class="group-7-2b8ko4">
+          <div class="rectangle-9-tQnNXi"></div>
+          <div class="vegetable-pizza-tQnNXi lato-black-black-15px">Vegetable Pizza</div>
+        </div>
+        <div class="hkd175-2b8ko4 lato-bold-vermilion-17px">HKD175</div>
+        <div class="amoutn-2b8ko4">
+          <div class="minus-i0nueE"><img class="xmlid-1425-2EGx2J" src="../static/images/xmlid-1425@2x.png" /></div>
+          <div class="x1-i0nueE poppins-normal-gun-powder-12px">1</div>
+          <div class="plus-add-i0nueE"><img class="xmlid-1427-nLBPQR" src="../static/images/xmlid-1427@2x.png" /></div>
+        </div>
+        <div class="amoutn-PDVkUA">
+          <div class="minus-PbuPCt"><img class="xmlid-1425-TpDJRk" src="../static/images/xmlid-1425@2x.png" /></div>
+          <div class="x0-PbuPCt poppins-normal-gun-powder-12px">0</div>
+          <div class="plus-add-PbuPCt"><img class="xmlid-1427-XnFzv3" src="../static/images/xmlid-1427@2x.png" /></div>
+        </div>
+        <div class="amoutn-v1IumZ">
+          <div class="minus-77p8s9"><img class="xmlid-1425-7y23As" src="../static/images/xmlid-1425@2x.png" /></div>
+          <div class="x0-77p8s9 poppins-normal-gun-powder-12px">0</div>
+          <div class="plus-add-77p8s9"><img class="xmlid-1427-iMamxV" src="../static/images/xmlid-1427@2x.png" /></div>
+        </div>
+        <div class="amoutn-zjk9hG">
+          <div class="minus-LUpktE"><img class="xmlid-1425-qL3ath" src="../static/images/xmlid-1425@2x.png" /></div>
+          <div class="x1-LUpktE poppins-normal-gun-powder-12px">1</div>
+          <div class="plus-add-LUpktE"><img class="xmlid-1427-KwZTAq" src="../static/images/xmlid-1427@2x.png" /></div>
+        </div>
+      </div>
+      <img class="image-21-C61RwL" src="../static/images/image-21@2x.png" />
+      <img class="image-20-C61RwL" src="../static/images/image-20@2x.png" />
+      <div class="cta-C61RwL">
+        <img class="rectangle-28-Uvh9oG" src="../static/images/rectangle-28@2x.png" />
+        <div class="background-Uvh9oG"></div>
+      </div>
+      <a href="../dine-in-checkout">
+        <div class="checkout-C61RwL">
+          <div class="x1-item-3RfBrx poppins-normal-white-14px">1 item</div>
+          <div class="checkout-3RfBrx poppins-medium-white-16px">Checkout</div>
+          <div class="hkd365-3RfBrx poppins-normal-white-14px">HKD365</div>
+        </div></a
+      >
+      <div class="rectangle-302-C61RwL"></div>
+      <div class="search-menu-C61RwL lato-light-black-12px">Search Menu</div>
+      <div class="group-683-C61RwL">
+        <img class="vector-tolfHD" src="../static/images/vector-4@2x.png" />
+        <img class="vector-gWjg5w" src="../static/images/vector-1@2x.png" />
+      </div>
+      <div class="menu-C61RwL">
+        <div class="menu-SQ9Gz0">
+          <div class="menu-624YFD">
+            <div class="menuu-blocks-5Dl1wf">
+              <img class="main-course-t9Udze" src="../static/images/main-course@2x.png" />
+              <div class="appetizer-t9Udze lato-medium-star-dust-17px">Appetizer</div>
+              <div class="soup-t9Udze lato-medium-star-dust-17px">Soup</div>
+              <div class="dessert-t9Udze lato-medium-star-dust-17px">Dessert</div>
+              <div class="textlabel-t9Udze lato-medium-star-dust-17px">Пасты</div>
+            </div>
+            <img class="line-5Dl1wf" src="../static/images/line@2x.png" />
+          </div>
+        </div>
+      </div>
+      <img class="image-18-C61RwL" src="../static/images/image-18@2x.png" />
+      <img class="image-19-C61RwL" src="../static/images/image-19@2x.png" />
+      <a href="../dine-in-homepage"><img class="home-page-C61RwL" src="../static/images/home-page@2x.png" /></a>
+    </div>
+  </body>
+</html>
