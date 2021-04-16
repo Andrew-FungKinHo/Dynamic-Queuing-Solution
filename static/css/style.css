@@ -22,10 +22,28 @@ section {
   color: white;
 }
 
+
 main {
-  /* background: linear-gradient(180deg, #1F4975 81.25%, rgba(31, 73, 117, 0) 100%); */
   min-height: 100px;
+  background: #f7f7f7;
 }
+main .buttons {
+  display: flex;
+  padding: 10px;
+}
+main .buttons .button {
+  flex: 1;
+  height: 110px;
+  padding: 15px;
+  border-radius: 10px;
+  background: white;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 
 header {
   padding: 30px;

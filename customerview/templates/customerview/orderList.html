@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
-            crossorigin="anonymous"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+        crossorigin="anonymous"
     >
 </head>
 <body>
@@ -17,18 +17,22 @@
             <div class="card card-body">
                 <table class="table">
                     <tr>
+                        <th>Customer</th>
+                        <th>Merchant</th>
                         <th>Order Type</th>
                         <th>Total Price</th>
-                        <th>Start Time</th>
-                        <th>End Time</th>
+                        <th>Order Created</th>
+                        <th>Estimated Time</th>
                     </tr>
 
                     {% for o in orders %}
                     <tr>
+                        <td>{{o.customerConcerned}}</td>
+                        <td>{{o.merchantConcerned}}</td>
                         <td>{{o.orderType}}</td>
-                        <td>{{o.totalPrice}}</td>
-                        <td>{{o.startTime}}</td>
-                        <td>{{o.endTime}}</td>
+                        <td>${{o.totalPrice}}</td>
+                        <td>{{o.orderCreated}}</td>
+                        <td>{{o.eta}} mins</td>
                     </tr>
                     {% endfor %}
                 </table>

@@ -1,81 +1,84 @@
+{% extends 'customerview/main.html' %}
 {% load static %}
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Queuing Solution</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
-            crossorigin="anonymous"
-    >
-    <link rel="stylesheet"  href="{%  static  'css/style.css'  %}">
-
-</head>
-<body>
-    
-
-    {% comment %} <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Sintegrate</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+{% block content %}
+{% comment %} <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Sintegrate</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Customer</a>
+                <a class="nav-link" href="#">Customer</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Merchant</a>
+                <a class="nav-link " href="#">Merchant</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Delivery</a>
+                <a class="nav-link " href="#">Delivery</a>
             </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+        </form>
+    </div>
+</nav>
+{% endcomment %}
+<section>
+    <header>
+        <div class="header" id="navbar">
+            <h3>Welcome!</h3>
+            <h4>Jardines Restaurant Group</h4>
         </div>
-    </nav> {% endcomment %}
+    </header>
+    <main>
+        {% comment %} <ul class="nav nav-tabs nav-fill text-white ">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Dine In </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Take out</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Delivery</a>
+            </li>
+            <ul> {% endcomment %}
 
-    <section>
-        <header>
-            <div class="header" id="navbar">
-                <h3>Welcome!</h3>
-                <h4>Jardines Restaurant Group</h4>
-            </div>
-        </header>
-        <main>
-            <ul class="nav nav-tabs nav-fill text-white ">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Dine In </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Take out</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Delivery</a>
-                </li>
-            <ul>
-        </main>
-    </section>
-    
-    {% comment %} <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <input type="submit" value="Save">
-        {{ form.media }}
-    </form>
+                <div class="buttons">
+                    {% comment %} <div class="button"> {% endcomment %}
+                    <div class="card" style="width: 10rem;">
+                        <img class="card-img-top" src="{% static 'images/image-11@2x.png' %}" alt="Card image cap">
+                        <h5>Pizza Hut</h5>
+                        <h6>Central<h6>
+                    </div>
+                    {% comment %} </div> {% endcomment %}
 
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Current location" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> {% endcomment %}
-    
-</body>
-</html>
+
+                    {% comment %} <div class="button">
+                        <img>
+                    </div>
+                    <div class="button">
+                    </div> {% endcomment %}
+                </div>
+    </main>
+</section>
+
+{% comment %} <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Save">
+    {{ form.media }}
+</form>
+
+<form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Current location" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form> {% endcomment %}
+
+
+{% endblock %}
