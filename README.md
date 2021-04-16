@@ -1,5 +1,5 @@
-# Sintegrate
-The project is designed for catering industry to implement a online ordering platform. It can calculate the ETA based on the locations of customers and restauarnt. By knowing ETA in advance, restaurants can manage take-away, dine-in orders efficiently.
+# Sintegrate by Slack Overflow (Team No.: Team163)
+The project Sintegrate in HackUST is designed for catering industry to implement a online ordering platform. It can calculate the ETA based on the locations of customers and restauarnt. By knowing ETA in advance, restaurants can manage take-away, dine-in orders efficiently.
 
 ## Requirement
   Python >= 3.6
