@@ -23,17 +23,17 @@ def getETA(origin, destination):
     except :
         return -1
 
-def home(request):
-    return render(request,'customerview/home.html')
+# def home(request):
+#     return render(request,'customerview/home.html')
 
-def customer(request):
-    return render(request,'customerview/customer.html')
+# def customer(request):
+#     return render(request,'customerview/customer.html')
 
-def merchant(request):
-    return render(request,'customerview/merchant.html')
+# def merchant(request):
+#     return render(request,'customerview/merchant.html')
 
-def delivery(request):
-    return render(request,'customerview/delivery.html')
+# def delivery(request):
+#     return render(request,'customerview/delivery.html')
 
 def order(request):
     # orders = Order.save)
